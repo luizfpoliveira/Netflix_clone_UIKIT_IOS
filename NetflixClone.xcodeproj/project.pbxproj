@@ -14,6 +14,7 @@
 		3838EB2B2BB1EFBC00EDEEE0 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3838EB2A2BB1EFBC00EDEEE0 /* SDWebImageMapKit */; };
 		3838EB2D2BB1F78C00EDEEE0 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838EB2C2BB1F78C00EDEEE0 /* TitleTableViewCell.swift */; };
 		3838EB2F2BB1FBD300EDEEE0 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838EB2E2BB1FBD300EDEEE0 /* TitleViewModel.swift */; };
+		3838EB322BB203FD00EDEEE0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838EB312BB203FD00EDEEE0 /* SearchResultsViewController.swift */; };
 		389D8DEC2BADDAB600FB54A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DEB2BADDAB600FB54A9 /* AppDelegate.swift */; };
 		389D8DEE2BADDAB600FB54A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DED2BADDAB600FB54A9 /* SceneDelegate.swift */; };
 		389D8DF02BADDAB600FB54A9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DEF2BADDAB600FB54A9 /* MainTabBarViewController.swift */; };
@@ -34,6 +35,7 @@
 		3838EB252BB1EEBB00EDEEE0 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		3838EB2C2BB1F78C00EDEEE0 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		3838EB2E2BB1FBD300EDEEE0 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		3838EB312BB203FD00EDEEE0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		389D8DE82BADDAB600FB54A9 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389D8DEB2BADDAB600FB54A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389D8DED2BADDAB600FB54A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3838EB332BB2042100EDEEE0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				389D8DEF2BADDAB600FB54A9 /* MainTabBarViewController.swift */,
+				389D8E002BADDBBE00FB54A9 /* HomeViewController.swift */,
+				389D8E022BADDBD800FB54A9 /* UpcomingViewController.swift */,
+				389D8E042BADDBEE00FB54A9 /* SearchViewController.swift */,
+				389D8E062BADDC0500FB54A9 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3838EB342BB2043100EDEEE0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3838EB312BB203FD00EDEEE0 /* SearchResultsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		389D8DDF2BADDAB600FB54A9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +122,8 @@
 		389D8DFF2BADDBA900FB54A9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				389D8DEF2BADDAB600FB54A9 /* MainTabBarViewController.swift */,
-				389D8E002BADDBBE00FB54A9 /* HomeViewController.swift */,
-				389D8E022BADDBD800FB54A9 /* UpcomingViewController.swift */,
-				389D8E042BADDBEE00FB54A9 /* SearchViewController.swift */,
-				389D8E062BADDC0500FB54A9 /* DownloadsViewController.swift */,
+				3838EB342BB2043100EDEEE0 /* General */,
+				3838EB332BB2042100EDEEE0 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +257,7 @@
 				389D8E112BADF1F500FB54A9 /* HeroHeaderUIView.swift in Sources */,
 				389D8E072BADDC0500FB54A9 /* DownloadsViewController.swift in Sources */,
 				389D8DEC2BADDAB600FB54A9 /* AppDelegate.swift in Sources */,
+				3838EB322BB203FD00EDEEE0 /* SearchResultsViewController.swift in Sources */,
 				3838EB222BB1E9FF00EDEEE0 /* Extensions.swift in Sources */,
 				389D8DEE2BADDAB600FB54A9 /* SceneDelegate.swift in Sources */,
 				389D8E032BADDBD800FB54A9 /* UpcomingViewController.swift in Sources */,
