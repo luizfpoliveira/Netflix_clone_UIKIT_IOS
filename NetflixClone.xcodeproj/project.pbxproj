@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3838EB202BB1E77E00EDEEE0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838EB1F2BB1E77E00EDEEE0 /* Movie.swift */; };
 		389D8DEC2BADDAB600FB54A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DEB2BADDAB600FB54A9 /* AppDelegate.swift */; };
 		389D8DEE2BADDAB600FB54A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DED2BADDAB600FB54A9 /* SceneDelegate.swift */; };
 		389D8DF02BADDAB600FB54A9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8DEF2BADDAB600FB54A9 /* MainTabBarViewController.swift */; };
@@ -18,9 +19,11 @@
 		389D8E072BADDC0500FB54A9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8E062BADDC0500FB54A9 /* DownloadsViewController.swift */; };
 		389D8E0E2BADDF6300FB54A9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8E0D2BADDF6300FB54A9 /* CollectionViewTableViewCell.swift */; };
 		389D8E112BADF1F500FB54A9 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8E102BADF1F500FB54A9 /* HeroHeaderUIView.swift */; };
+		389D8E132BAE07F300FB54A9 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D8E122BAE07F300FB54A9 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3838EB1F2BB1E77E00EDEEE0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		389D8DE82BADDAB600FB54A9 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389D8DEB2BADDAB600FB54A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389D8DED2BADDAB600FB54A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		389D8E062BADDC0500FB54A9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		389D8E0D2BADDF6300FB54A9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		389D8E102BADF1F500FB54A9 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		389D8E122BAE07F300FB54A9 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		389D8E0A2BADDF1A00FB54A9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3838EB1F2BB1E77E00EDEEE0 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		389D8E0C2BADDF4100FB54A9 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				389D8E122BAE07F300FB54A9 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +209,13 @@
 				389D8E052BADDBEE00FB54A9 /* SearchViewController.swift in Sources */,
 				389D8DF02BADDAB600FB54A9 /* MainTabBarViewController.swift in Sources */,
 				389D8E0E2BADDF6300FB54A9 /* CollectionViewTableViewCell.swift in Sources */,
+				389D8E132BAE07F300FB54A9 /* APICaller.swift in Sources */,
 				389D8E112BADF1F500FB54A9 /* HeroHeaderUIView.swift in Sources */,
 				389D8E072BADDC0500FB54A9 /* DownloadsViewController.swift in Sources */,
 				389D8DEC2BADDAB600FB54A9 /* AppDelegate.swift in Sources */,
 				389D8DEE2BADDAB600FB54A9 /* SceneDelegate.swift in Sources */,
 				389D8E032BADDBD800FB54A9 /* UpcomingViewController.swift in Sources */,
+				3838EB202BB1E77E00EDEEE0 /* Movie.swift in Sources */,
 				389D8E012BADDBBF00FB54A9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
